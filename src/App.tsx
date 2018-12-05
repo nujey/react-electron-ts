@@ -1,20 +1,26 @@
 import * as React from 'react';
-import './styles/App.css';
 
-import logo from './assets/images/logo.svg';
+import './styles/App.css';
+// import logo from './assets/images/logo.svg';
 // import Hello from './views/home/home';
+
+import RouteConfig from './router/index'
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          头
         </header>
-        {/* <Hello name="张小鹿" enthusiasmLevel={3}/> */}
+        <div>
+          中间内容
+            1. 侧栏菜单
+            2. 中间主要内容
+            <RouteConfig />
+        </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+          底部播放栏
         </p>
       </div>
     );
