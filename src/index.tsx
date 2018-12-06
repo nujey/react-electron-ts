@@ -10,6 +10,11 @@ import './styles/index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
+function handle(t:number) {
+  console.log(t)
+}
+handle(Date.now())
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
