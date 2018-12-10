@@ -1,8 +1,6 @@
 import * as React from 'react';
 
 import './styles/App.css';
-// import logo from './assets/images/logo.svg';
-// import Hello from './views/home/home';
 
 import RouteConfig from './router/index'
 

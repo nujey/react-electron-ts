@@ -12,7 +12,7 @@ function Hello({ name, enthusiasmLevel = 1 }: Props) {
   return (
     <div className="hello">
       <div>
-        111111Hello!{name + getExclamationMarks(enthusiasmLevel)}
+        Hello!{name + getExclamationMarks(enthusiasmLevel)}
       </div>
     </div>
   )
