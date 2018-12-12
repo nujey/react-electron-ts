@@ -3,6 +3,7 @@ import * as React from 'react'
 import { Route, Switch } from 'react-router-dom';
 
 import Home from  '../views/home/home'
+import Login from '../views/home/login'
 
 class RouteConfig extends React.Component {
   public render() {
@@ -11,6 +12,9 @@ class RouteConfig extends React.Component {
         <Switch>
           <Route path="/" exact={true}>
             <Home name="我"/>
+          </Route>
+          <Route path="/login">
+            <Login loginStatus={false}/>
           </Route>
         </Switch>
       </div>
