@@ -9,7 +9,7 @@
   },
   "rules": {
     "member-access": false,
-    "interface-name": [true, "never-prefix"],
+    "interface-name": [true, "never-prefix"], // interface必须以I开头
     "ordered-imports": false,
     "no-console": false,
     "jsx-no-lambda": false,

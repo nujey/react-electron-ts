@@ -4,18 +4,20 @@ interface Props {
   songType: string
 }
 
-interface IState {
+interface State {
   songLength: number,
-  songType: string
 }
 
-class HappySong extends React.Component<Props, IState> {
-  readonly state = {} as IState
+class HappySad extends React.Component<Props, State> {
+
+  readonly state = {} as State
+
   public render() {
+    console.log(this.props, 6666)
     return (
       <div>快乐的歌曲</div>
     )
   }
 }
 
-export default HappySong
+export default HappySad

@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from  '../views/home/home'
 import Login from '../views/home/login'
 import Usercenter from '../views/home/usercenter'
+import SongSheet from '../views/songsheet/songsheet'
 
 class RouteConfig extends React.Component<{}, {name: string}> {
   readonly state = {
@@ -34,6 +35,7 @@ class RouteConfig extends React.Component<{}, {name: string}> {
               <Usercenter username={this.state.name} /> :
               <span>Empty</span>
           )}/>
+          <Route path="/songsheet/:type" component={SongSheet}/>
         </Switch>
       </div>
     )
