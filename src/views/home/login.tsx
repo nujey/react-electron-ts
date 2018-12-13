@@ -4,7 +4,7 @@ interface Props {
   loginStatus: boolean;
   name?: string;
   age?: number;
-  list?: number[]; // 元素类型后面直接跟[]
+  // list?: number[]; // 元素类型后面直接跟[]
   // list2?: Array<number>; // 数组范型
   tuple?: [string, number]; // 元组
   any?: any;
