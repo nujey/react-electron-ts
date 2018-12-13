@@ -14,7 +14,7 @@ class RouteConfig extends React.Component {
             <Home name="我"/>
           </Route>
           <Route path="/login">
-            <Login loginStatus={false}/>
+            <Login loginStatus={true}/>
           </Route>
         </Switch>
       </div>
