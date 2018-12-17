@@ -13,7 +13,8 @@
     "ordered-imports": false,
     "no-console": false,
     "jsx-no-lambda": false,
-    "array-type": [true, "generic"]
+    "array-type": [true, "generic"],
+    "object-literal-sort-keys": false
   }
 }
 // {

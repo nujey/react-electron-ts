@@ -1,7 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+import history from './untils/history'
+import { Router } from 'react-router-dom';
 
 import * as _ from 'lodash';
 
@@ -10,10 +12,11 @@ import './styles/index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
+
 ReactDOM.render(
-  <BrowserRouter>
+  <Router history={history}>
     <App />
-  </BrowserRouter>
+  </Router>
   , document.getElementById('root') as HTMLElement
 );
 
